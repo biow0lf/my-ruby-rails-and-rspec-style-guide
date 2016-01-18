@@ -6,7 +6,7 @@ With rubocop rules for enforce this.
 
 * Ruby version. Use ruby >= x.x.2. Usually, release version ruby contains bugs, so omit x.x.0 versions. And x.x.1 versions too. Use 2.2.4 ruby for production now.
 
-* Lock ruby version for ruby application in ```.ruby-version``` and ```Gemfile``.
+* Lock ruby version for ruby application in ```.ruby-version``` and ```Gemfile```.
 
 ```.ruby-version```:
 ```ruby
