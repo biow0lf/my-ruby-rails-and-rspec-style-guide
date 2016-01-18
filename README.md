@@ -22,6 +22,12 @@ Style/Tab:
   Enabled: true
 ```
 
+## Rails
+
+* Use erb. Don't use haml, slim or similar template engines. They are don't solve the problems and make understading harder.
+
 ## PostgreSQL
 
 * Use x.x.1 >= versions. Usually, release versions contains bugs. Use 9.4.5 version now.
+* Don't use triggers
+* Don't use SQL Views
