@@ -61,6 +61,7 @@ Style/Tab:
 * lograge. For squashing rails logs.
 * whenever. For cron jobs.
 * capistrano. Use it for deploy.
+* sidekiq. For delayed jobs. Use it with ActiveJob from Rails >= 4.2. 
 
 ## Don't use this gems:
 
