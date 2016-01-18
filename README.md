@@ -6,9 +6,9 @@ With rubocop rules for enforce this.
 
 * Ruby version. Use ruby >= x.x.2. Usually, release version ruby contains bugs, so omit x.x.0 versions. And x.x.1 versions too. Use 2.2.4 ruby for production now.
 
-* Use UTF-8. Always.
+* Use ```UTF-8``` as the source encoding. Always.
 
-* Omit "magic" comment ```# encoding: utf-8```. Current ruby always think that encoding is utf-8.
+* Omit "magic" comment ```# encoding: utf-8```. Current ruby always think that encoding is ```UTF-8```.
 
 * Use two spaces for indent code.
 ```yaml
