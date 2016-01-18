@@ -57,6 +57,8 @@ Style/Tab:
 * brakeman. For catching typical security problems.
 * bundler-audit. For catching known security problems in used gems (usually, they are have assigned CVE numbers).
 * exception_notification. For catching exception notifications.
+* lograge. For squashing rails logs.
+* whenever. For cron jobs.
 
 ## Don't use this gems:
 
@@ -70,3 +72,7 @@ Style/Tab:
 * Use x.x.1 >= versions. Usually, release versions contains bugs. Use 9.4.5 version now.
 * Don't use triggers.
 * Don't use SQL Views.
+
+## Services
+
+* Use NewRelic RPM. newrelic_rpm gem.
