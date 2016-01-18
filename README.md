@@ -38,6 +38,17 @@ Style/Tab:
 
 * Use erb. Don't use haml, slim or similar template engines. They are don't solve the problems and make understading harder.
 
+## Usefull ruby gems:
+
+* kaminari. Use it for pagination.
+* swagger-blocks. For Swagger 2.0 Specification.
+
+## Don't use this gems:
+
+* will_paginate. Use kaminari instead.
+* ActiveAdmin. If you need admin panel with simple CRUD, it will work. If you will need to customize, it will turn your life in hell.
+* swagger-docs. Mostly unsupported and use oudated Swagger 1.2 Specification. Use swagger-blocks.
+
 ## PostgreSQL
 
 * Use x.x.1 >= versions. Usually, release versions contains bugs. Use 9.4.5 version now.
