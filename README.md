@@ -86,3 +86,11 @@ Style/Tab:
 ## Services
 
 * Use NewRelic RPM. newrelic_rpm gem.
+
+## Questions?
+
+* Q: What about CoffeeScript vs JavaScript?
+* A: I am backend developer and don't use both.
+
+* Q: What about CSS/SASS/SCSS?
+* A: I am backedn developre and don't use both.
