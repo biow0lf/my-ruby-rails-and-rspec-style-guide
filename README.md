@@ -8,7 +8,7 @@ With rubocop rules for enforce this.
 
 * Use UTF-8. Always.
 
-* Omit "magic" comment ```ruby # encoding: utf-8```. Current ruby always think that encoding is utf-8.
+* Omit "magic" comment ```# encoding: utf-8```. Current ruby always think that encoding is utf-8.
 
 * Use two spaces for indent code.
 ```yaml
