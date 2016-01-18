@@ -41,5 +41,5 @@ Style/Tab:
 ## PostgreSQL
 
 * Use x.x.1 >= versions. Usually, release versions contains bugs. Use 9.4.5 version now.
-* Don't use triggers
-* Don't use SQL Views
+* Don't use triggers.
+* Don't use SQL Views.
