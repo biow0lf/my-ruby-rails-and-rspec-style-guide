@@ -18,7 +18,7 @@ Gemfile:
 ruby '2.2.4'
 ```
 
-* Use ```UTF-8``` as the source encoding. Always.
+* Use ```UTF-8``` as the source file encoding. Always.
 
 * Omit "magic" comment ```# encoding: utf-8```. Current ruby always think that encoding is ```UTF-8```.
 
