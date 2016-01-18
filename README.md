@@ -24,4 +24,4 @@ Style/Tab:
 
 ## PostgreSQL
 
-* Use x.x.1 >= versions. Usually, release versions contains bugs. Use 9.4.5 version.
+* Use x.x.1 >= versions. Usually, release versions contains bugs. Use 9.4.5 version now.
