@@ -48,6 +48,7 @@ Style/Tab:
 * will_paginate. Use kaminari instead.
 * ActiveAdmin. If you need admin panel with simple CRUD, it will work. If you will need to customize, it will turn your life in hell.
 * swagger-docs. Mostly unsupported and use oudated Swagger 1.2 Specification. Use swagger-blocks.
+* paperclip. Hard to customize behavior for non-trivial situations.
 
 ## PostgreSQL
 
