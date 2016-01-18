@@ -60,6 +60,7 @@ Style/Tab:
 * exception_notification. For catching exception notifications.
 * lograge. For squashing rails logs.
 * whenever. For cron jobs.
+* capistrano. Use it for deploy.
 
 ## Don't use this gems:
 
@@ -77,6 +78,10 @@ Style/Tab:
 * Use x.x.1 >= versions. Usually, release versions contains bugs. Use 9.4.5 version now.
 * Don't use triggers.
 * Don't use SQL Views.
+
+## Deploy
+
+* Use capistrano.
 
 ## Services
 
