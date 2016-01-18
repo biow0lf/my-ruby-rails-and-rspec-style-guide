@@ -6,6 +6,18 @@ With rubocop rules for enforce this.
 
 * Ruby version. Use ruby >= x.x.2. Usually, release version ruby contains bugs, so omit x.x.0 versions. And x.x.1 versions too. Use 2.2.4 ruby for production now.
 
+* Lock ruby version for ruby application in ```.ruby-version``` and ```Gemfile``.
+
+```.ruby-version```:
+```ruby
+2.2.4
+```
+
+```Gemfile```:
+```ruby
+ruby '2.2.4'
+```
+
 * Use ```UTF-8``` as the source encoding. Always.
 
 * Omit "magic" comment ```# encoding: utf-8```. Current ruby always think that encoding is ```UTF-8```.
