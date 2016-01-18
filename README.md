@@ -42,6 +42,21 @@ Style/Tab:
 
 * kaminari. Use it for pagination.
 * swagger-blocks. For Swagger 2.0 Specification.
+* bullet. Excelent tool for catching N+1 problems.
+* rubocop. For catching problems which can be catched automatically.
+* redis-objects. For any interaction with redis.
+* draper. Just decorators.
+* rspec and rspec-rails. For testing.
+* rspec-its. Don't Repeat Yourself.
+* rspec-activemodel-mocks. For stubbing ActiveRecord models.
+* shoulda-matchers. For simple one-liners specs.
+* shoulda-callback-matchers. For spec'ing callbacks in Models.
+* fakeredis. For running specs without real local redis server.
+* simplecov. For test coverage reports.
+* pry-rails. For good rails console and simple debbuging when needed.
+* brakeman. For catching typical security problems.
+* bundler-audit. For catching known security problems in used gems (usually, they are have assigned CVE numbers).
+* exception_notification. For catching exception notifications.
 
 ## Don't use this gems:
 
