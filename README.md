@@ -54,6 +54,7 @@ Style/Tab:
 * fakeredis. For running specs without real local redis server.
 * simplecov. For test coverage reports.
 * pry-rails. For good rails console and simple debbuging when needed.
+* awesome_print. For easy debbuging in rails console.
 * brakeman. For catching typical security problems.
 * bundler-audit. For catching known security problems in used gems (usually, they are have assigned CVE numbers).
 * exception_notification. For catching exception notifications.
@@ -66,6 +67,10 @@ Style/Tab:
 * ActiveAdmin. If you need admin panel with simple CRUD, it will work. If you will need to customize, it will turn your life in hell.
 * swagger-docs. Mostly unsupported and use oudated Swagger 1.2 Specification. Use swagger-blocks.
 * paperclip. Hard to customize behavior for non-trivial situations.
+* factory_girl. Just use rspec-activemodel-mocks instead.
+* faker. You don't need this without factory_girl.
+* database_cleaner. You don't need this without factory_girl.
+* fakeweb. Unsupported.
 
 ## PostgreSQL
 
