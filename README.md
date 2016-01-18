@@ -8,12 +8,12 @@ With rubocop rules for enforce this.
 
 * Lock ruby version for ruby application in ```.ruby-version``` and ```Gemfile```.
 
-".ruby-version:
+.ruby-version:
 ```ruby
 2.2.4
 ```
 
-"Gemfile":
+Gemfile:
 ```ruby
 ruby '2.2.4'
 ```
