@@ -38,6 +38,32 @@ Style/Tab:
 
 * Use erb. Don't use haml, slim or similar template engines. They are don't solve the problems and make understading harder.
 
+## Testing
+
+* Test behavior not implementation.
+
+```ruby
+class Sum
+  def perform(a, b)
+    a + b
+  end
+end
+
+# bad
+it { expect(subject.sum(1, 2)).to eq(3)  }
+
+# good
+let(:a) { 1 }
+
+let(:b) { 2 }
+
+before { expect(subject).to recive(:sum).with(a, b) }
+
+before { expect(a).to receive(:+).with(b) }
+
+it { expect { subject.sum(a, b) }.not_to raise_error }
+```
+
 ## Usefull ruby gems:
 
 * kaminari. Use it for pagination.
