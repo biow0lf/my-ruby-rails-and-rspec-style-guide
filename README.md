@@ -59,9 +59,9 @@ end
 # good
 describe Sum do
   describe '#sum' do
-    let(:a) { 1 }
+    let(:a) { double }
 
-    let(:b) { 2 }
+    let(:b) { double }
 
     before { expect(subject).to recive(:sum).with(a, b) }
 
