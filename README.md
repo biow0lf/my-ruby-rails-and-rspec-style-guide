@@ -50,25 +50,33 @@ class Sum
 end
 
 # bad
-it { expect(subject.sum(1, 2)).to eq(3)  }
+describe Sum do
+  describe '#sum' do
+    specify { expect(subject.sum(1, 2)).to eq(3)  }
+  end
+end
 
 # good
-let(:a) { 1 }
+describe Sum do
+  describe '#sum' do
+    let(:a) { 1 }
 
-let(:b) { 2 }
+    let(:b) { 2 }
 
-before { expect(subject).to recive(:sum).with(a, b) }
+    before { expect(subject).to recive(:sum).with(a, b) }
 
-before { expect(a).to receive(:+).with(b) }
+    before { expect(a).to receive(:+).with(b) }
 
-it { expect { subject.sum(a, b) }.not_to raise_error }
+    it { expect { subject.sum(a, b) }.not_to raise_error }
+  end
+end
 ```
 
-## Usefull ruby gems:
+## Useful ruby gems:
 
 * kaminari. Use it for pagination.
 * swagger-blocks. For Swagger 2.0 Specification.
-* bullet. Excelent tool for catching N+1 problems.
+* bullet. Excellent tool for catching N+1 problems.
 * rubocop. For catching problems which can be catched automatically.
 * redis-objects. For any interaction with redis.
 * draper. Just decorators.
@@ -79,8 +87,8 @@ it { expect { subject.sum(a, b) }.not_to raise_error }
 * shoulda-callback-matchers. For spec'ing callbacks in Models.
 * fakeredis. For running specs without real local redis server.
 * simplecov. For test coverage reports.
-* pry-rails. For good rails console and simple debbuging when needed.
-* awesome_print. For easy debbuging in rails console.
+* pry-rails. For good rails console and simple debug when needed.
+* awesome_print. For easy debug in rails console.
 * brakeman. For catching typical security problems.
 * bundler-audit. For catching known security problems in used gems (usually, they are have assigned CVE numbers).
 * exception_notification. For catching exception notifications.
@@ -93,7 +101,7 @@ it { expect { subject.sum(a, b) }.not_to raise_error }
 
 * will_paginate. Use kaminari instead.
 * ActiveAdmin. If you need admin panel with simple CRUD, it will work. If you will need to customize, it will turn your life in hell.
-* swagger-docs. Mostly unsupported and use oudated Swagger 1.2 Specification. Use swagger-blocks.
+* swagger-docs. Mostly unsupported and use outdated Swagger 1.2 Specification. Use swagger-blocks.
 * paperclip. Hard to customize behavior for non-trivial situations.
 * factory_girl. Just use rspec-activemodel-mocks instead.
 * faker. You don't need this without factory_girl.
@@ -120,4 +128,4 @@ it { expect { subject.sum(a, b) }.not_to raise_error }
 * A: I am backend developer and don't use both.
 
 * Q: What about CSS/SASS/SCSS?
-* A: I am backedn developre and don't use both.
+* A: I am backend developer and don't use any of thus.
