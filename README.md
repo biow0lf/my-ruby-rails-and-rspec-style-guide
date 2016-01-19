@@ -107,6 +107,7 @@ end
 * faker. You don't need this without factory_girl.
 * database_cleaner. You don't need this without factory_girl.
 * fakeweb. Unsupported.
+* cancan. Unsupported.
 
 ## PostgreSQL
 
